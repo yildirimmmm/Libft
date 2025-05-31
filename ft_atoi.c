@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhyildi <muhyildi@student.42istanbul      +#+  +:+       +#+        */
+/*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:35:48 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/05/29 18:38:52 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/05/31 14:59:16 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_atoi(const char *s)
 {

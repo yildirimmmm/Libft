@@ -1,25 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/29 12:07:22 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/05/31 14:59:45 by muhyildi         ###   ########.fr       */
+/*   Created: 2025/05/31 14:54:36 by muhyildi          #+#    #+#             */
+/*   Updated: 2025/05/31 14:58:39 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#ifndef	LIBFT_H
+# define	LIBFT_H
 
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
+# include	<stdlib.h>
+# include	<unistd.h>
 
-	i = 0;
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
+#endif

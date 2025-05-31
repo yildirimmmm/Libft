@@ -6,9 +6,11 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 17:44:28 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/05/31 11:50:27 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/05/31 14:59:58 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {
