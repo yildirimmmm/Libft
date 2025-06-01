@@ -6,7 +6,7 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 14:48:25 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/05/31 15:20:06 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/06/01 12:31:09 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,5 @@ size_t	strlcpy(char *dst, const char *src, size_t dstsize)
 		i++;
 	}
 	dst[i] = '\0';
-	return(ft_strlen(src));
+	return (ft_strlen(src));
 }

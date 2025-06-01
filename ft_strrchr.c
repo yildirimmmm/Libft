@@ -6,7 +6,7 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 17:44:28 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/05/31 14:59:58 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/06/01 12:32:25 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strrchr(const char *s, int c)
 	{
 		if (s[i] == (char)c)
 			last_index = i;
-		i++;     
+		i++;
 	}
 	if ((char)c == '\0')
 		return ((char *)&s[i]);
