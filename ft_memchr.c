@@ -6,7 +6,7 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/12 09:56:02 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/06/12 10:08:10 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/06/12 19:21:31 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 			return ((void *)src);
 		src++;
 	}
-	return (NULL);		
+	return (NULL);
 }
