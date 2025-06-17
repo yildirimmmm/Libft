@@ -6,7 +6,7 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 16:45:57 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/06/03 12:46:57 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/06/17 01:15:37 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	size_t	i;
 	size_t	j;
 
-	if (needle == '\0')
+	if (*needle == '\0')
 		return ((char *)haystack);
 	i = 0;
 	while (haystack[i] != '\0' && i < len)

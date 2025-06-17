@@ -6,7 +6,7 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 05:50:43 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/06/14 06:38:41 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/06/17 01:15:37 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,11 @@ static int	is_in_set(char const c, char const *set)
 
 	i = 0;
 	while (set[i] != '\0')
+	{
 		if (c == set[i])
 			return (1);
+		i++;
+	}
 	return (0);
 }
 
@@ -39,7 +42,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		start++;
 	while (end > start && is_in_set(s1[end - 1], set))
 		end--;
-	dst = malloc((end - start) + 1);
+	dst = (char *)malloc(sizeof(char) * ((end - start) + 1));
 	if (dst == NULL)
 		return (NULL);
 	while (start < end)

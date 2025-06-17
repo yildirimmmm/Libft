@@ -6,7 +6,7 @@
 /*   By: muhyildi <muhyildi@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 04:39:35 by muhyildi          #+#    #+#             */
-/*   Updated: 2025/06/14 05:16:08 by muhyildi         ###   ########.fr       */
+/*   Updated: 2025/06/17 19:40:30 by muhyildi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (s_len - start < len)
 		len = s_len - start;
 	dst = malloc(len + 1);
+	if (dst == NULL)
+		return (NULL);
 	i = 0;
 	while (s[i + start] != '\0' && len > i)
 	{
