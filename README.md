@@ -4,13 +4,13 @@
 Libft is a foundational C library recreated as part of the 42 Türkiye curriculum.  
 It consists of standard C functions implemented from scratch, designed to reinforce core concepts in C programming such as memory management, string handling, and data conversions.
 
-## 📦 Project Overview
+##  Project Overview
 
 - Reimplementation of essential C standard library functions
 - Custom utility functions to support future C projects
 - Strict adherence to the 42 coding standard (Norm)
 
-## 📁 File Structure
+##  File Structure
 
 ```
 .
@@ -20,7 +20,7 @@ It consists of standard C functions implemented from scratch, designed to reinfo
 └── README.md        # Project documentation (this file)
 ```
 
-## 🧠 Implemented Functions
+##  Implemented Functions
 
 ### Part 1 – libc Functions
 
@@ -59,13 +59,13 @@ make fclean
 make re
 ```
 
-## 📝 Notes
+##  Notes
 
 - All code is written in **C** and follows the **42 Norm** strictly.
 - The library compiles into `libft.a`, a static archive file you can reuse in future projects.
 - No bonus part is included in this version.
 
-## 👤 Author
+##  Author
 
 - **yildirimmmm**  
   [[Github](https://github.com/yildirimmmm)]
