@@ -37,7 +37,7 @@ It consists of standard C functions implemented from scratch, designed to reinfo
 - `ft_itoa`, `ft_strmapi`, `ft_striteri`
 - Output functions: `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`
 
-## 🔧 Usage
+## Usage
 
 ### Compile the library
 ```bash
